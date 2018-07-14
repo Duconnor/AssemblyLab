@@ -2,7 +2,7 @@
 
 void doit(void) {
     char buf[8];
-    gets(buf);
+    fgets(buf, 8, stdin);
     printf("%s\n", buf);
 }
 
